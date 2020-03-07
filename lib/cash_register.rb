@@ -34,10 +34,10 @@ class CashRegister
     end
   end
 
-  def items
-    # you want all the items in your cart
-    only_items = []
-    only_items << item
-  end
+  # def items
+  #   # you want all the items in your cart
+  #   only_items = []
+  #   only_items << item
+  # end
 
 end
