@@ -80,9 +80,9 @@ class CashRegister
 
   def void_last_transaction
 
-    if @items.remove 
+    if @items.remove
       @total = 0.0
-      @total
+      
     else
       @total = @total - @last_transaction_amount
 
