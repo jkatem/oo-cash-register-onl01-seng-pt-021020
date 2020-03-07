@@ -82,10 +82,10 @@ class CashRegister
 
     if @items = 0
       @total = 0
-      @total.to_i
+      @total.to_f
     else
       @total = @total - @last_transaction_amount
-      
+
     end
   end
 
