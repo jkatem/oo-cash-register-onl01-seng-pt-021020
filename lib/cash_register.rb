@@ -8,6 +8,7 @@ class CashRegister
     @total = 0
     @discount = discount
     @cart = []
+    @item = []
   end
 
   def add_item(item, price, num_of_item = 1)
@@ -33,10 +34,10 @@ class CashRegister
     end
   end
 
-  # def items
-  #   # you want all the items in your cart
-  #   only_items = []
-  #   only_items << item
-  # end
+  def items
+    # you want all the items in your cart
+    only_items = []
+    only_items << item
+  end
 
 end
