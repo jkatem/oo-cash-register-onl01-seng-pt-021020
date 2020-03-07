@@ -1,7 +1,7 @@
 
 class CashRegister
 
-  attr_accessor :total, :discount, :cart, :price, :item 
+  attr_accessor :total, :discount, :cart, :price, :item
 
 
   def initialize(discount = 0)
@@ -33,10 +33,10 @@ class CashRegister
     end
   end
 
-  def items
-    # you want all the items in your cart
-    only_items = []
-    only_items << item
-  end
+  # def items
+  #   # you want all the items in your cart
+  #   only_items = []
+  #   only_items << item
+  # end
 
 end
