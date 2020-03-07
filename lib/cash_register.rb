@@ -82,7 +82,7 @@ class CashRegister
 
     if @items = []
       @total = 0.0
-      
+
     else
       @total = @total - @last_transaction_amount
 
